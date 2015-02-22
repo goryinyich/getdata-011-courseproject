@@ -105,7 +105,7 @@ subject and activity this particular observation is for:
 * "activity" - one from the list in the original dataset: WALKING, WALKING_UPSTAIRS,
 WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING
 
-In general we have several measurements of these quantities for each
+In general we have several measurements of the above "mean-std" quantities for each
 subject and for each activity (for different times). 
 The script aggregates this data in a natural manner: using 'by' function
 it subsets the data in dimension (subject x activity), and for each such
